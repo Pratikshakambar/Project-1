@@ -27,6 +27,10 @@ public class Address {
 	@Column(nullable = false)
 	private int pincode;
 	
+
+	@Column(nullable = false)
+	private int pincode2;
+	
 	//bi-dir mapping between Address(Entity) *<--->1vCustomer(Entity) 
 	@ManyToOne
 	@JoinColumn(name = "customer_id")
