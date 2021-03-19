@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "address_tbl")
 public class Address {
-	
+	//a comment to check git push
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "address_id")
